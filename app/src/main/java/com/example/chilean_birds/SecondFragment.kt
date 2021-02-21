@@ -55,11 +55,11 @@ class SecondFragment : Fragment() {
             }
         })
 
-        mBinding.buttonSecond.setOnClickListener(){
+        mBinding.ftVolver.setOnClickListener(){
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
 
-        mBinding.btDelete.setOnClickListener(){
+        mBinding.ftDelete.setOnClickListener(){
             mViewModel.getAllFavImages().observe(viewLifecycleOwner, Observer {
                 it?.let {
                     it.map {
