@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.chilean_birds.model.local.BirdsDao
 import com.example.chilean_birds.model.local.BirdsEntity
-import com.example.chilean_birds.model.remote.BirdsData
+import com.example.chilean_birds.model.remote.data_birds.BirdsData
 import com.example.chilean_birds.model.remote.RetrofitClient
 
 class BirdsRepository (private val birdsDao: BirdsDao){

@@ -1,5 +1,6 @@
 package com.example.chilean_birds.model.remote
 
+import com.example.chilean_birds.model.remote.data_birds.BirdsData
 import retrofit2.Response
 import retrofit2.http.GET
 

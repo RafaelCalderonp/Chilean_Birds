@@ -1,14 +1,13 @@
 package com.example.chilean_birds.viewModel
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.example.chilean_birds.model.BirdsRepository
 import com.example.chilean_birds.model.local.BirdsDataBase
 import com.example.chilean_birds.model.local.BirdsEntity
-import com.example.chilean_birds.model.remote.BirdsData
+import com.example.chilean_birds.model.remote.data_birds.BirdsData
 import kotlinx.coroutines.launch
 
 class BirdsViewModel (application: Application) : AndroidViewModel(application){
